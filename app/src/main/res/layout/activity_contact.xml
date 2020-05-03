@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.toroidapps.iotanam.ContactActivity">
+    <RelativeLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/chitchat"
+            android:text="If you have any question or need assistance. Please feel free to contact with us. Our expert team would be happy to help you"
+            android:fontFamily="@font/lato_regular1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_below="@+id/chitchat"
+            android:hint="Your Name"
+            android:textColor="#5e5a5a"
+            android:textColorHint="#a1a1a1"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_style_register"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_below="@+id/txtName"
+            android:hint="Your Email"
+            android:textColor="#5e5a5a"
+            android:textColorHint="#a1a1a1"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_style_register"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/txtMessage"
+            android:layout_below="@+id/txtEmail"
+            android:hint="Message"
+            android:textColor="#5e5a5a"
+            android:textColorHint="#a1a1a1"
+            android:textSize="15dp"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:background="@drawable/edittext_style_register"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_below="@+id/txtMessage"
+            android:text="KIRIM"
+            android:background="@drawable/button_register"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
+</RelativeLayout>

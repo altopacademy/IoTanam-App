@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ioTanam</string>
+    <string name="title_activity_ad_hoc">AdHocActivity</string>
+    <string name="title_stat">Stat</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_contact">Contact</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "452674924974",
+    "firebase_url": "https://iotanam.firebaseio.com",
+    "project_id": "iotanam",
+    "storage_bucket": "iotanam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452674924974:android:0d71e4d1b15f8706",
+        "android_client_info": {
+          "package_name": "com.toroidapps.iotanam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452674924974-0ltrff8rh54lbsb5a003drsqjbmirdvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toroidapps.iotanam",
+            "certificate_hash": "ebdaa75a10f8b4878fc28b1580422f355b0d1387"
+          }
+        },
+        {
+          "client_id": "452674924974-s8poshm9l3dnm9fncspgbbu02u9grhi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX1dldVIvT4_gt0zFKINqv5jLByH1gyOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452674924974-s8poshm9l3dnm9fncspgbbu02u9grhi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
